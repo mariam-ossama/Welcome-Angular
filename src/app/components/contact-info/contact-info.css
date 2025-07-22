@@ -1,0 +1,7 @@
+.contact-info-item h2{
+    text-transform: uppercase;
+}
+.contact-info-item ul li a{
+    color: unset;
+    text-decoration: none;
+}
