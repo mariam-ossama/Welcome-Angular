@@ -1,0 +1,32 @@
+section {
+    background-color: #1ABC9C;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img {
+    width: 55%;
+}
+p{
+    font-weight: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* Default: Extra-small devices such as small phones (less than 640px) */
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+    .home-img {
+    width: 20%;
+}
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {}

@@ -1,0 +1,19 @@
+nav{
+    background-color: #2C3E50 !important;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.navbar-brand {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 16px 0 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+.nav-item {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    font-weight: 700;
+}

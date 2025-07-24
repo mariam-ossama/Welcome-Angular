@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --font-color: #fff;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+* {
+    color: var(--font-color);
+    font-family: var(--font-family);
+}
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 16px;
+    font-weight: 700;
+}
+.line {
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 4px;
+    width: 80px;
+    margin: 15px;
+}

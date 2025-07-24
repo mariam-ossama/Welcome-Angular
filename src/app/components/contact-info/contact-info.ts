@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './contact-info.css'
 })
 export class ContactInfo {
-  address:string = "2215 John Daniel Drive Clark, MO 65243";
+  
 }
