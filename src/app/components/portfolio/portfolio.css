@@ -38,3 +38,9 @@ img {
 .port-item:hover .overlay {
     opacity: 1;
 }
+    .modal-dialog {
+        max-width: 600px;
+    }
+.modal-body {
+    padding: 0;
+}

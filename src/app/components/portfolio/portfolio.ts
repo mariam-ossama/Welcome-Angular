@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.css'
 })
 export class Portfolio {
-
+  //imgSrc!:string;
+  displayImg(img:string): void {
+    console.log(img);
+  }
 }
