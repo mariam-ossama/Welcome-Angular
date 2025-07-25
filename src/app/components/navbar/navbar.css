@@ -17,3 +17,10 @@ nav{
     padding: 8px;
     font-weight: 700;
 }
+.router-link-active {
+    background-color: #1ABC9C;
+    color: white;
+    border-radius: 8px;
+    width: max-content;
+    padding: 10px;
+}
