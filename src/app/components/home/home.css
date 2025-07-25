@@ -1,6 +1,6 @@
 section {
     background-color: #1ABC9C;
-    height: 97vh;
+    min-height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
