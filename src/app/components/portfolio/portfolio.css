@@ -1,8 +1,22 @@
-section {
+h1 {
+    color: #2C3E50;
+    margin: 0 0 8px;
+}
+.box {
+    height: 20vh;
+}
+.line {
+    background-color: #2C3E50;
+    border: 1px solid #2C3E50;
+}
+.underline i {
     color: #2C3E50;
 }
 .port-item{
     position: relative;
+}
+img {
+    border-radius: 8px;
 }
 .overlay{
     background-color: rgba(26, 188, 156,.9);
@@ -16,6 +30,10 @@ section {
     bottom: 0;
     opacity: 0;
     transition: opacity .7s;
+    border-radius: 8px;
+}
+.overlay i {
+    font-size: 96px;
 }
 .port-item:hover .overlay {
     opacity: 1;
