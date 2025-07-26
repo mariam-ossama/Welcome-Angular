@@ -12,8 +12,8 @@ section {
     background-color: #2C3E50;
 }
 h2 {
-    font-size: 28px;
-    line-height: 33.6px;
+    font-size: 23.8096px;
+    line-height: 28.5715px;
     margin: 0 0 8px;
     padding: 20px 0 0;
     font-weight: 500;
@@ -37,3 +37,24 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 28px;
+    line-height: 33.6px;
+    margin: 0 0 8px;
+    padding: 20px 0 0;
+    font-weight: 500;
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {}

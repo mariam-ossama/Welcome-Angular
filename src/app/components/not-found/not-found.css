@@ -1,0 +1,39 @@
+.not-found-wrapper {
+  min-height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 1rem;
+}
+
+.not-found-card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  background-color: #2C3E50;
+  transition: transform 0.3s ease-in-out;
+}
+
+.not-found-card:hover {
+  transform: translateY(-4px);
+}
+
+.not-found-card h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-card .btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+.btn-primary {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+    background-color: #0b9378;
+    border-color: #1ABC9C;
+}

@@ -9,8 +9,8 @@
     font-family: var(--font-family);
 }
 h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 29.524px;
+    line-height: 35.4288px;
     margin: 0 0 16px;
     font-weight: 700;
 }
@@ -24,3 +24,24 @@ h1 {
 .modal-backdrop.show {
   background-color: rgba(13, 110, 253,.5)!important;
 }
+
+/* Default: Extra-small devices such as small phones (less than 640px) */
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+    h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 16px;
+    font-weight: 700;
+}
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {}
