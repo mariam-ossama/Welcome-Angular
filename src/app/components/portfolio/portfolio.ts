@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 })
 export class Portfolio {
   images: string[] = [
-    "/images/portfolio/poert1.png",
-    "/images/portfolio/port2.png",
-    "/images/portfolio/port3.png",
-    "/images/portfolio/poert1.png",
-    "/images/portfolio/port2.png",
-    "/images/portfolio/port3.png"
+    // "/images/portfolio/poert1.png",
+    // "/images/portfolio/port2.png",
+    // "/images/portfolio/port3.png",
+    // "/images/portfolio/poert1.png",
+    // "/images/portfolio/port2.png",
+    // "/images/portfolio/port3.png"
   ]
   selectedImage: string = '';
 

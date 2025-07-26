@@ -44,3 +44,28 @@ img {
 .modal-body {
     padding: 0;
 }
+
+ .not-found-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.not-found-card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  background-color: #2C3E50;
+  transition: transform 0.3s ease-in-out;
+}
+
+.not-found-card:hover {
+  transform: translateY(-4px);
+}
+
+.not-found-card h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}

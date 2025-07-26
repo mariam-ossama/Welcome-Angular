@@ -21,6 +21,16 @@
                     <img [src]="image" alt="Portfolio Image" class="w-100 d-block">
                 </div>
             </div>
+            } @empty {
+                <section class="not-found-wrapper">
+  <div class="card not-found-card text-center">
+    <div class="card-body">
+      <h1 class="display-1 text-danger">Empty</h1>
+      <p class="lead text-white">No portfolio items!</p>
+    </div>
+  </div>
+</section>
+
             }
             <div class="modal fade rounded-0" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
