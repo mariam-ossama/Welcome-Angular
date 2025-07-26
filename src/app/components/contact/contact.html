@@ -1,3 +1,4 @@
+<!--TODO: labal displayed on input only-->
 <section>
     <div class="container m-auto">
         <div class="header py-3">
@@ -10,18 +11,22 @@
                 </div>
         </div>
         <div class="contact-form">
-            <div class="form">
+            <div class="form-floating mb-2">
                 <div class="mb-5">
-                    <input type="text" class="form-control" id="userName" placeholder="userName">
+                    <label for="userName" [style.opacity]="name? 1 : 0 ">UserName:</label>
+                    <input type="text" class="form-control" id="userName" name="name" [(ngModel)]="name" placeholder="userName">
                 </div>
                 <div class="mb-5">
-                    <input type="number" class="form-control" id="userAge" placeholder="userAge">
+                    <label for="userAge" [style.opacity]="age? 1 : 0 ">userAge:</label>
+                    <input type="number" class="form-control" id="userAge" name="age" [(ngModel)]="age" placeholder="userAge">
                 </div>
                 <div class="mb-5">
-                    <input type="email" class="form-control" id="userEmail" placeholder="userEmail">
+                    <label for="userEmail" [style.opacity]="email? 1 : 0 ">userEmail:</label>
+                    <input type="email" class="form-control" id="userEmail" name="email" [(ngModel)]="email" placeholder="userEmail">
                 </div>
                 <div class="mb-5">
-                    <input type="password" class="form-control" id="userPassword" placeholder="userPassword">
+                    <label for="userPassword" [style.opacity]="password? 1 : 0 ">userPassword:</label>
+                    <input type="password" class="form-control" id="userPassword" name="password" [(ngModel)]="password" placeholder="userPassword">
                 </div>
                 <button class="btn btn-success btn-bg-color">send Message</button>
             </div>

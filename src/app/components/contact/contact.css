@@ -32,7 +32,9 @@ h1 {
   background-color: #1ABC9C !important;
   border-color: #1ABC9C !important;
 }
-
+label{
+  color: #1ABC9C;
+}
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 640px) {}
 
